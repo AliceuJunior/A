@@ -1,0 +1,79 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Prova3ATPII",
+    "collectionId": "1ffb8ecc-7722-4f98-bb59-f51dc0a8a5ed",
+    "dateExported": "2024-06-17T16:19:36.072Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ce55a404-72c7-45d3-b6b3-96b62ef56507",
+            "colId": "1ffb8ecc-7722-4f98-bb59-f51dc0a8a5ed",
+            "containerId": "",
+            "name": "Criar Pessoa",
+            "url": "http://localhost:3001/pessoa",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-16T21:40:03.405Z",
+            "modified": "2024-06-17T14:01:47.139Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nome\":\"Marcos\",\n  \"idade\": 65,\n  \"email\": \"marcos@fatec.sp.gov.br\",\n  \"fone\": \"1239531388\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "32b40942-f784-4a4d-afdf-4ca8b5f8fc13",
+            "colId": "1ffb8ecc-7722-4f98-bb59-f51dc0a8a5ed",
+            "containerId": "",
+            "name": "Criar Estudante",
+            "url": "http://localhost:3001/estudante",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-16T22:33:00.855Z",
+            "modified": "2024-06-16T23:01:22.590Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"ra\":\"1234567810\",\n  \"media\":10,\n  \"pessoa\":\"666f6d6c958b8533e92b9a8b\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "acce2189-4af7-4b98-b344-ba81686ac5cb",
+            "colId": "1ffb8ecc-7722-4f98-bb59-f51dc0a8a5ed",
+            "containerId": "",
+            "name": "Listar Estudantes",
+            "url": "http://localhost:3001/estudante",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-06-16T22:35:30.413Z",
+            "modified": "2024-06-16T23:04:34.841Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0dc178c8-58c2-4e52-928b-176c9fca23f6",
+            "colId": "1ffb8ecc-7722-4f98-bb59-f51dc0a8a5ed",
+            "containerId": "",
+            "name": "Listar Pessoas",
+            "url": "http://localhost:3001/pessoa",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-06-16T23:04:03.803Z",
+            "modified": "2024-06-16T23:04:47.767Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "TWwTpQBkRXfzHPPld7-Cwq3Vqokn_0nXUMcduW5UnxjOI-BM34YwV96qS9pSdGNd4rymKOWggis2c7LvPMtCtA"
+}
